@@ -29,7 +29,7 @@ let hours = today.getHours();
 let minutes = today.getMinutes();
 console.log(hours);
 console.log(minutes);
-console.log(today);
+console.log("the current time is: " +  hours + " " + minutes);
 let day = today.getDay();
 console.log(day);
 
@@ -63,9 +63,9 @@ let setning =
   userName + " idag er det, " + daylist[day] + " klokka er " + today;
 console.log(setning);
 
-// const element= document.getElementById("setning");
-//document.getElementById("setning").textContent=
-//"setning"+ textContent;
+
+const element= document.getElementById("setning");
+document.getElementById("setning").textContent= setning;
 
 //Jeg må ha hjelp til denne, for noe er det som gjør at jeg ikke klarer å få dette ut på siden..
 
@@ -81,9 +81,9 @@ console.log(sum);
 //Oppgave 5.
 const userAge = 10; 
 const userNick ="Fredrik";
-if (userAge >= 18 && userNick ==!"");{
-  console.log(`Du kan bli med ${userNick} , du er ${userAge}!`);
-} else if (userAge <= 17 && userNick !=="");{
+if (userAge >= 18 && userNick ==!""){
+  console.log(`Du kan bli med ${userNick} , du er ${userAge}!`)
+} else if (userAge <= 17 && userNick !==""){
   console.log(`Du kan komme tilbake når du er gammel nok ${userNick}!`); 
 } 
   
